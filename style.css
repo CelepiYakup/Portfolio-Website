@@ -166,7 +166,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url("/background2.jpg");
+    background-image: url("/background3.jpg");
     background-position: center;
     background-size: cover;
     border-top: 1px solid #fff;
@@ -202,3 +202,141 @@ section {
     border-radius: 50%;
     padding-left: 50px;
 }
+
+/* Contact Me Start */
+.contact-me{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid #fff;
+    display: flex;
+    padding: 1.5rem;
+    
+
+}
+.contact-me .contact-row{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    
+    
+}
+
+.contact-me .contact-row .Header-2{
+    
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+    color: #fff;
+}
+
+.contact-me .contact-row .Header-2 h2{
+    font-size: 40px;
+    font: weight 700px;
+    
+}
+.contact-me .contact-row .Header-2 span{
+    color: #f49403;
+}
+.contact-me .contact-row .Header-2 h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-me .contact-row .Header-2 p{
+    transition: all 0.5s ease;
+}
+
+.contact-me .contact-row .Header-2 p:hover{
+    transform: scale(1.01) translateY(5px);
+    color: #f49403;
+}
+
+.contact-me .contact-row .Header-2 .social-icons{
+    
+    position: relative ;
+    height: 60px;
+    width: 260px;
+}
+
+.contact-me .contact-row .Header-2 .social-icons a{
+
+
+    display:inline-flex;
+    padding: 19px;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #f49403;
+    transition: all 0.5s ease;
+    border-radius: 50%;
+
+}
+
+.contact-me .contact-row .Header-2 .social-icons a:hover{
+    transform: scale(1.01) translateY(5px);
+    color: #000;
+}
+
+.contact-me .contact-row .contact-text{
+    padding-top: 5rem;
+    padding-left: 15rem;
+    width: 600px;
+    color: #fff;
+    
+    
+ 
+}
+.contact-me .contact-row .contact-text #text-me{
+    width: 100%;
+    color: #fff;
+    background-color: #12141c;
+    height: 30px;
+    outline: none;
+    padding-left: 4px;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+
+.contact-me .contact-row .contact-text textarea{
+    background: #12141c;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 18px;
+    padding-left: 4px;
+    margin-left: 2px;
+    outline: none;
+
+}
+#btn-down{
+
+    color:#fff;
+    padding: 20px;
+    position: relative;
+    left: 150px;
+    border-radius: 14px;
+    background-color: #12141c;
+    transition: all 0.5s ease;
+}
+#btn-down:hover{
+    
+    background-color: #f49403;
+    color: #000;
+    transform: scale(1.01) translateY(5px);
+}
+.footer{
+    color: #f49403;
+    text-align: center;
+    background-color: #212121;
+    background-color: transparent;
+}
+/* Contact Me End */
